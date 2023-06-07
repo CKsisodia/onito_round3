@@ -2,14 +2,14 @@ import React from "react";
 import { useState } from "react";
 
 const Comp_2 = (props) => {
-  const [click, setClick] = useState([]);
+  
 
   const addHandler = () => {
-    setClick(props.inputData);
-    props.comp2Data(click);
+   
+    props.comp2Data();
   };
 
-  console.log(click);
+ 
 
   return (
     <div>
